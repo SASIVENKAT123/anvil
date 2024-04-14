@@ -116,7 +116,7 @@ class check_out(check_outTemplate):
         self.loan_amount_label.text = str(loan_amount)
         self.interest_label.text = str(total_interest_amount)
         self.tenure_label.text = str(tenure)
-        self.account_no_label.text = str(selected_row['account_number'])
+        self.account_no_label.text = str(selected_row['account_ndumber'])
       
         # Display total EMI amount including extension amount
         self.update_total_emi_amount(total_emi)
